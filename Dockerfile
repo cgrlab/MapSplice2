@@ -14,10 +14,8 @@ git
 
 RUN pip install --upgrade pip
 RUN pip install --upgrade virtualenv
-RUN pip install numpy
-RUN pip install PyVCF
 
 RUN git clone https://github.com/cgrlab/MapSplice2.git
 
-RUN cd /opt/MapSplice2; make
+#RUN cd /opt/MapSplice2; make
 
