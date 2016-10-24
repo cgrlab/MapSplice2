@@ -17,5 +17,5 @@ RUN pip install --upgrade virtualenv
 
 RUN git clone https://github.com/cgrlab/MapSplice2.git
 
-#RUN cd /opt/MapSplice2; make
+RUN cd /opt/MapSplice2; make
 
