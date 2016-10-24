@@ -9,6 +9,8 @@ python \
 python-pip \ 
 python-dev \ 
 build-essential \
+libncurses5-dev \
+libncursesw5-dev \
 pypy \
 git
 
